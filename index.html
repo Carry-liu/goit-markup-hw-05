@@ -478,5 +478,80 @@
         </div>
       </footer>
     </div>
+    <!-- MODAL -->
+    <div class="modal-overlay is-open">
+      <div class="modal">
+        <button type="button" class="close-button">
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form action="" class="modal-form">
+          <div class="modal-field">
+            <label class="modal-input-label" for="user-name">Name</label>
+            <div class="modal-icon-cover">
+              <input
+                type="text"
+                class="modal-input modal-item"
+                name="user-name"
+                placeholder=""
+                id="user-name"
+                required
+              />
+              <svg class="modal-input-icon" width="13" height="13">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-phone" class="modal-input-label">Phone</label>
+            <div class="modal-icon-cover">
+              <input
+                type="tel"
+                class="modal-input modal-item"
+                name="user-phone"
+                placeholder=""
+                id="user-phone"
+                required
+              />
+              <svg class="modal-input-icon" width="13" height="13">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-email" class="modal-input-label">Email</label>
+            <div class="modal-icon-cover">
+              <input
+                type="email"
+                class="modal-input modal-item"
+                name="user-email"
+                placeholder=""
+                id="user-email"
+                required
+              />
+              <svg class="modal-input-icon" width="13" height="13">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="modal-comment" class="modal-input-label">Comment</label>
+            <textarea
+              class="modal-textarea modal-item"
+              placeholder="Text input"
+              id="modal-comment"
+              name="modal-comment"
+            ></textarea>
+          </div>
+          <div class="modal-field">
+            <label for="" class="modal-input-lable"> </label>
+            <input type="text" name="" value="" id="" />
+          </div>
+          <button type="submit" class="submit-button">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

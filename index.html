@@ -475,6 +475,24 @@
               </li>
             </ul>
           </div>
+          <div class="footer-subscribe-field">
+            <p class="footer-subscribe-title">Subscribe</p>
+            <form action="" class="footer-form">
+              <input
+                type="text"
+                class="footer-input"
+                id="footer-subscribe"
+                name="footer-subscribe"
+                placeholder="E-mail"
+              />
+              <button class="button footer-button" type="submit">
+                Subscribe
+                <svg class="submit-icon" width="24" height="20">
+                  <use href="./images/icons.svg#icon-subscribe"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </footer>
     </div>
@@ -546,8 +564,21 @@
             ></textarea>
           </div>
           <div class="modal-field">
-            <label for="" class="modal-input-lable"> </label>
-            <input type="text" name="" value="" id="" />
+            <input
+              type="checkbox"
+              class="check visually-hidden"
+              name="checkbox"
+              value="true"
+              id="modal-check"
+            />
+            <label for="modal-check" class="checkbox-label">
+              <span class="check-element">
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a href="" class="check-link">Privacy Policy</a>
+            </label>
           </div>
           <button type="submit" class="submit-button">Send</button>
         </form>

@@ -4,11 +4,11 @@ body {
   margin: 0;
 }
 
-.wrapper {
+/* .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* важливо */
-}
+  min-height: 100vh; ---важливо---
+} */
 
 .content {
   flex: 1; /* займе все доступне місце */
@@ -605,11 +605,11 @@ img {
 }
 
 .footer-input {
-  /* font-weight: 400;
+  font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff; */
+  color: #fff;
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
@@ -714,10 +714,10 @@ img {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1); color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1); fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* 
-.close-icon {
+
+/* .close-icon {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
@@ -725,6 +725,10 @@ img {
 .close-button:focus {
   background-color: #404bbf;
   border: none;
+}
+
+.close-button:hover .close-icon,
+.close-button:focus .close-icon {
   color: #fff;
 }
 

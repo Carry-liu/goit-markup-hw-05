@@ -816,12 +816,12 @@ img {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .modal-item:focus {
+.modal-item:focus {
   color: #4D5AE5;
-} */
+}
 .modal-icon-cover {
   position: relative;
 }
@@ -900,6 +900,10 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+span.check-element {
+  display: inline-flex;
+}
+
 .check:checked {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -912,10 +916,10 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
   border: none;
-  fill: #4d5ae5;
+  fill: #f4f4fd;
 }
 
-.check:checked + .checkbox-label .check-icon {
+.check:checked + .checkbox-label .check-element .check-icon {
   color: #ffffff;
 }
 

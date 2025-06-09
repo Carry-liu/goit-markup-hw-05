@@ -851,7 +851,7 @@ img {
   min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -900,6 +900,10 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.check:checked {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .check-icon {
   color: transparent;
 }
@@ -908,7 +912,7 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
   border: none;
-  fill: #F4F4FD;;
+  fill: #4d5ae5;
 }
 
 .check:checked + .checkbox-label .check-icon {
@@ -919,6 +923,6 @@ img {
   line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  fill: #4d5ae5;
+  color: #4d5ae5;
   margin-left: 4px;
 }

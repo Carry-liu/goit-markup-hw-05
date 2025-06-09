@@ -912,11 +912,11 @@ img {
 }
 
 .check:checked + .checkbox-label .check-icon {
-  color: #fff;
+  color: #ffffff;
 }
 
 .check-link {
-  line-height: 1.33333;
+  line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
